@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RDL - Rules</title>
+    <link rel="stylesheet" href="css/rules.css">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&family=Roboto+Slab:wght@400;500;600&family=Source+Sans+Pro&family=Cinzel:wght@400&family=Lexend+Zetta&family=Red+Rose:wght@400;700&family=Ubuntu+Condensed&family=Oswald&family=Oswald&family=Recursive:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    
+    
+    <script src="https://kit.fontawesome.com/f15b6a6c87.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+<div class="page">
+    <!--SPRITES-->
+    <svg style="display: none;">
+            <symbol id="sword" viewBox="0 0 200.000000 200.000000"><g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+            fill="" stroke="none">
+            <path d="M265 1708 c2 -7 23 -83 45 -168 l41 -155 412 -412 412 -413 -55 -55
+            -55 -55 60 -60 60 -60 90 90 90 90 132 -132 133 -133 55 55 55 55 -132 132
+            -133 133 90 90 90 90 -60 60 -60 60 -60 -60 -60 -60 -411 411 -411 411 -159
+            49 c-177 54 -175 54 -169 37z"/>
+            <path d="M1605 1658 l-160 -48 -182 -183 c-101 -100 -183 -186 -183 -192 0 -6
+            52 -62 115 -125 l115 -115 190 190 189 190 41 153 c23 84 40 159 38 166 -2 8
+            -49 -2 -163 -36z"/>
+            <path d="M440 845 l-54 -55 89 -90 90 -90 -133 -133 -132 -132 55 -55 55 -55
+            133 133 132 132 92 -92 93 -93 55 55 c30 30 55 59 55 64 0 6 -23 34 -52 63
+            l-52 53 57 58 57 57 -120 120 -120 120 -58 -58 -58 -57 -54 55 c-30 30 -59 55
+            -65 55 -6 0 -35 -25 -65 -55z"/>
+            </g></symbol>
+</svg>
+
+    <header class="header" id="header">
+        <div class="header_inner">
+           
+            <div class="header_logo" id="header_logo">
+               
+                <a href="#" class="header_link">
+                    <svg class="header_icon" id="header_icon">
+                        <use xlink:href="#sword"></use>
+                    </svg>
+                </a>
+                
+                <h3 class="header_rdl">RDL</h3>
+            </div>
+            
+            <div class="nav" id="nav">
+                <a  class="nav_link" href="index.html" id="nav_link">Главная</a>
+                <a class="nav_link" href="past.html" id="nav_link">Прошлые турниры</a>
+                <a class="nav_link" href="rules.html" id="nav_link">Правила</a>
+            </div> <!--nav-->
+            
+            <button class="burger" type="button" id="burger">
+                <div class="burger_item">Burger</div>
+            </button>
+            
+        </div><!--header_inner-->
+    </header><!--header-->
+
+    <div class="rules">
+        <div class="container">
+            <div class="rules_inner">
+               
+                <h1 class="rules_title">Правила турнира</h1>
+                
+                <div class="rules_item">
+                    <h3 class="rules_undertitle">Общие положения:</h3>
+                    <li>Принимая участие в турнире, участник соглашается под всеми нижеизложенными правилами и обязуется их исполнять.</li>
+                    <li>В случае несоблюдения правил турнира, нарушитель наказывается по-усмотрению организатора(организаторов) турнира, вплоть до дисквалификации и наложения запрета на участие в дальнейших турнирах.</li>
+                    <li>Начало дуэли обьявляет ответственный за это организатор(комментатор)</li> 
+                    <li>Перед началом дуэли, каждый участник обязан убедится в отсутствии чужих усилений(бафов). В случае их наличия, незамедлительно снять их. </li> 
+                    <li>Классы, использующие незаметность, получают право открыться первым на другом классе.</li> 
+                    <li>В случае дуэли: двух разбойников, разбойника и друида, право открыться первым определяет /roll.</li> 
+                </div><!--rules_item-->
+                
+                <div class="rules_item">
+                    <h3 class="rules_undertitle">Запрещено:</h3>
+                    <li>Оскорбления участников турнира, комментаторов, организаторов, а также их родственников.</li>
+                    <li>Ухудшать видимость поединков для комментатора</li>    
+                    <li>Передача, продажа своего места в турнире другому лицу.</li>    
+                    <li>Использовать усиления(бафы) от других участников, а также предметов, игрушек</li>
+                    <li>Находится в незаметности дольше 1 минуты</li>
+                </div><!--rules_item-->
+                
+                <div class="rules_item">
+                    <h3 class="rules_undertitle">Классовые ограничения способностей:</h3>
+                    <h5 class="rules_class dk">Рыцарь смерти:</h5>
+                        <li><a href="https://www.wowhead.com/spell=42650/army-of-the-dead" class="rules_ability_link" target="_blank">Войско мертвых</a></li>
+                    <h5 class="rules_class paladin">Паладин:</h5>
+                        <li><a href="https://www.wowhead.com/spell=633/lay-on-hands" class="rules_ability_link" target="_blank">Возложение рук</a></li>
+                    <h5 class="rules_class shaman">Шаман:</h5>
+                        <li><a href="https://www.wowhead.com/spell=2825/bloodlust" class="rules_ability_link" target="_blank">Жажда крови</a></li>
+                        <li><a href="https://www.wowhead.com/spell=32182/heroism" class="rules_ability_link" target="_blank">Героизм</a></li>
+                    <h5 class="rules_class mage">Маг:</h5>
+                        <li><a href="https://www.wowhead.com/spell=80353/time-warp" class="rules_ability_link" target="_blank">Искажение времени</a></li>
+                </div><!--rules_item-->
+                      
+            </div><!--rules_inner-->
+        </div><!--container-->
+    </div><!--rules-->
+    
+    <footer class="footer">
+        <div class="footer_inner">
+
+            <div class="footer_item">
+                <div class="footer_social">
+                    <img class="footer_img" src="images/vigi_icon.png" alt="">
+                    
+                    <a target="_blank" href="https://www.youtube.com/user/VigiLifeWarriorzXz"><i class="fab fa-youtube footer_icon"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/warrior_vigi/"><i class="fab fa-instagram footer_icon"></i></a>
+                    <a target="_blank" href="https://vk.com/warriorvigi"><i class="fab fa-vk footer_icon"></i></a>
+                    <a target="_blank" href="https://www.twitch.tv/warriorvigi"><i class="fab fa-twitch footer_icon"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer_item">
+                <div class="footer_social">
+                    <img class="footer_img" src="images/raythis_icon.png" alt="">
+                    <a target="_blank" href="https://www.youtube.com/channel/UC8nITY8DXIupZFiH7ATHvYw"><i class="fab fa-youtube footer_icon"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/rayoffury/"><i class="fab fa-instagram footer_icon"></i></a>
+                    <a target="_blank" href="http://vk.com/raythis"><i class="fab fa-vk footer_icon"></i></a>
+                    <a target="_blank" href="http://twitch.tv/raythis"><i class="fab fa-twitch footer_icon"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer_item">
+                <div class="footer_social">
+                    <img class="footer_img" src="images/kragar_icon.png" alt="">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCWiWcUz0yb8rh2mEsXDAnrw"><i class="fab fa-youtube footer_icon"></i></a>
+                    <a target="_blank" href="https://www.twitch.tv/kragarduels"><i class="fab fa-twitch footer_icon"></i></a>
+                </div>
+            </div>
+
+        </div><!--footer_inner-->
+    </footer><!--footer-->
+    
+    <div class="copyright">
+        Made by <a href="">lova_s</a>
+    </div><!--copyright-->
+    
+    <a href="#" id="btn_to_Top"><img class="btn_to_top" src="images/rdl/arrow-left.svg" alt=""></a>
+</div><!--page-->
+<script src="js/rules.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

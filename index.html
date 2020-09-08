@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>RDL - Russian Duelist League</title>
+    
+    <link rel="stylesheet" href="css/rdl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lexend+Zetta&family=Oswald&family=Recursive:wght@500;600;700&family=Red+Rose:wght@400;700&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/f15b6a6c87.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="page">
+    
+    <!--SPRITES-->
+    <svg style="display: none;">
+        <symbol id="sword" viewBox="0 0 200.000000 200.000000"><g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
+        fill="" stroke="none">
+        <path d="M265 1708 c2 -7 23 -83 45 -168 l41 -155 412 -412 412 -413 -55 -55
+        -55 -55 60 -60 60 -60 90 90 90 90 132 -132 133 -133 55 55 55 55 -132 132
+        -133 133 90 90 90 90 -60 60 -60 60 -60 -60 -60 -60 -411 411 -411 411 -159
+        49 c-177 54 -175 54 -169 37z"/>
+        <path d="M1605 1658 l-160 -48 -182 -183 c-101 -100 -183 -186 -183 -192 0 -6
+        52 -62 115 -125 l115 -115 190 190 189 190 41 153 c23 84 40 159 38 166 -2 8
+        -49 -2 -163 -36z"/>
+        <path d="M440 845 l-54 -55 89 -90 90 -90 -133 -133 -132 -132 55 -55 55 -55
+        133 133 132 132 92 -92 93 -93 55 55 c30 30 55 59 55 64 0 6 -23 34 -52 63
+        l-52 53 57 58 57 57 -120 120 -120 120 -58 -58 -58 -57 -54 55 c-30 30 -59 55
+        -65 55 -6 0 -35 -25 -65 -55z"/>
+        </g></symbol>
+    </svg>
+    
+    <header class="header" id="header">
+        <div class="header_inner">
+           
+            <div class="header_logo" id="header_logo">
+               
+                <a href="#" class="header_link">
+                    <svg class="header_icon" id="header_icon">
+                        <use xlink:href="#sword"></use>
+                    </svg>
+                </a>
+                
+                <h3 class="header_rdl">RDL</h3>
+            </div>
+            
+            <div class="nav" id="nav">
+                <a class="nav_link" href="rdl.html" id="nav_link">Главная</a>
+                <a class="nav_link" href="past.html" id="nav_link">Прошлые турниры</a>
+                <a class="nav_link" href="rules.html" id="nav_link">Правила</a>
+                <a data-scroll="#sponsor" class="nav_link" href="#" id="nav_link">Спонсоры</a>
+            </div> <!--nav-->
+            
+            <button class="burger" type="button" id="burger">
+                <div class="burger_item">Burger</div>
+            </button>
+            
+        </div><!--header_inner-->
+    </header><!--header-->
+    
+    <div class="intro" id="intro">
+       
+        <div class="video">
+            <video class="video_media" id="video" src="video/stormheim4.mp4" autoplay muted loop></video>
+        </div>
+        
+        <div class="intro_inner">   
+            <div class="intro_content">
+               
+                <div class="intro_title" id="intro_title">
+                    <h1>Russian Duelist League</h1>
+                </div>
+                
+                <!--Announcer Autoslider-->
+                <div class="slide" id="slide" onselectstart="return false">
+                   
+                    <div class="slide_text">
+                        <h3>Следующий турнир:</h3>
+                        <h2 id="date_tourn">31.08.2020</h2>
+                        <h3 id="out_time"></h3>
+                        <div class="hrefs_inner">
+                            
+                            <a class="slide_href" href="https://www.twitch.tv/warriorvigi"><i class="fab fa-twitch"></i></a>
+                            <a class="slide_href" href="https://vk.com/mizariwow"><i class="fab fa-vk"></i></a>
+                            <a class="slide_href"href="https://www.youtube.com/user/VigiLifeWarriorzXz">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="one" id="one" onselectstart="return false"><img src="images/rdl/al950.jpg" alt="">
+                    </div>
+                    <div class="two" id="two" onselectstart="return false"> <img src="images/rdl/hor950.jpg" alt="">
+                    </div>
+                    
+                </div><!--slide-->
+                
+            </div> 
+        </div>
+        
+        <div class="change">
+            <div tabindex="0" class="change_img horde" id="horde_color"><img src="images/horde.png" alt="" id="horde"></div>
+            <div tabindex="0" class="change_img alliance" id="alliance_color"><img src="images/alliance.png" alt="" id="alliance"></div>
+        </div>
+        
+    </div><!--intro-->
+    
+    <div class="sponsor" id="sponsor">
+       
+        <div class="section_title">
+            <h2 class="section_title_h2">Спонсоры</h2>
+        </div>
+        
+        <div class="container">
+            <div class="sponsor_inner">
+
+                <div class="sponsor_first">
+                   
+                    <div class="sponsor_item">
+                        <img src="images/rdl/wowSponsor.png" alt="">
+                    </div>
+                    <div class="sponsor_item">
+                        <img src="images/rdl/wowSponsor.png" alt="">
+                    </div>
+                    <div class="sponsor_item">
+                        <img src="images/rdl/wowSponsor.png" alt="">
+                    </div>
+                    <div class="sponsor_item">
+                        <img src="images/rdl/wowSponsor.png" alt="">
+                    </div>
+                       
+                </div>
+
+                <div class="sponsor_second">
+                   
+                    <div class="slider">
+                        <div class="slider_row" id="slider_row">
+                            <div class="slider_item first" id="slider_item_first">
+                                
+                                <div class="slider_text">
+                                    <h3>Ваша реклама может быть здесь</h3>
+                                </div>
+                            </div>
+                            <!--slider_item first-->
+                            <div class="slider_item second" id="slider_item_second">
+                                <div class="slider_text">
+                                    <h3>Ваша реклама может быть здесь</h3>
+                                </div>
+                            </div>
+                            <!--slider_item second-->
+                        </div>
+                    </div>
+                    <!--slider-->
+                    
+                </div>
+                
+            </div><!--sponsor_inner-->
+        </div><!--container-->
+    </div><!--sponsor-->
+    
+    <footer class="footer">
+        <div class="footer_inner">
+
+            <div class="footer_item">
+                <div class="footer_social">
+                    <img class="footer_img" src="images/vigi_icon.png" alt="">
+                    
+                    <a target="_blank" href="https://www.youtube.com/user/VigiLifeWarriorzXz"><i class="fab fa-youtube footer_icon"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/warrior_vigi/"><i class="fab fa-instagram footer_icon"></i></a>
+                    <a target="_blank" href="https://vk.com/warriorvigi"><i class="fab fa-vk footer_icon"></i></a>
+                    <a target="_blank" href="https://www.twitch.tv/warriorvigi"><i class="fab fa-twitch footer_icon"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer_item">
+                <div class="footer_social">
+                    <img class="footer_img" src="images/raythis_icon.png" alt="">
+                    <a target="_blank" href="https://www.youtube.com/channel/UC8nITY8DXIupZFiH7ATHvYw"><i class="fab fa-youtube footer_icon"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/rayoffury/"><i class="fab fa-instagram footer_icon"></i></a>
+                    <a target="_blank" href="http://vk.com/raythis"><i class="fab fa-vk footer_icon"></i></a>
+                    <a target="_blank" href="http://twitch.tv/raythis"><i class="fab fa-twitch footer_icon"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer_item">
+                <div class="footer_social">
+                    <img class="footer_img" src="images/kragar_icon.png" alt="">
+                    <a target="_blank" href="https://www.youtube.com/channel/UCWiWcUz0yb8rh2mEsXDAnrw"><i class="fab fa-youtube footer_icon"></i></a>
+                    <a target="_blank" href="https://www.twitch.tv/kragarduels"><i class="fab fa-twitch footer_icon"></i></a>
+                </div>
+            </div>
+
+        </div><!--footer_inner-->
+    </footer><!--footer-->
+    
+    <div class="copyright">
+        Made by <a href="">lova_s</a>
+    </div><!--copyright-->
+    
+    <a href="#" id="btn_to_Top"><img class="btn_to_top" src="images/rdl/arrow-left.svg" alt=""></a>
+    
+</div><!--page-->    
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+<script src="js/rdl.js"></script>
+
+</body>
+
+</html>
